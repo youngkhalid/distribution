@@ -1,7 +1,8 @@
 # Product Name
 > Dream Blog
 
-created in Django and basic html css and javascript.
+## Description
+This shows how to connect any HTML blog template to Django, leaving you with an awesome looking, fully-functional blog.
 
 ## Meta
 
