@@ -7,7 +7,7 @@ created in Django and basic html css and javascript.
 
 B.Karanja – [@Malw0re](https://twitter.com/X_Malw0re) – malw.karanja@gmail.com
 
-Distributed under the XYZ license. See ``LICENSE`` for more information.
+Distributed under the MIT license. See ``LICENSE`` for more information.
 
 [https://github.com/youngkhalid](https://github.com/youngkhalid)
 
