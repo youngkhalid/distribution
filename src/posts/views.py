@@ -22,6 +22,7 @@ def index(request):
     return render(request, 'index.html', context)
 
 def blog(request):
+    most_recent = Post.objects.order_by('-timestamp')[:3]
     post_list = Post.objects.all()
     paginator = Paginator(post_list, 1)
     page_request_var = 'page'
@@ -36,9 +37,10 @@ def blog(request):
 
     context = {
         'queryset': paginated_queryset,
-        'page_request_var': page_request_var
+        'page_request_var': page_request_var,
+        'most_recent': most_recent
     }
     return render(request, 'blog.html', context)
 
-def post(request):
+def post(request, id):
     return render(request, 'post.html', {})
